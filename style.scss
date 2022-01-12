@@ -5,13 +5,13 @@ body {
 }
 
 .box {
-    --primary: #275efe;
-    --headline: #3F4656;
-    --text: #99A3BA;
+    --primary: #093d0d;
+    --headline: #022475;
+    --text: #031744;
     width: 100%;
     max-width: 312px;
     padding: 36px 32px 48px 32px;
-    background: #fff;
+    background: rgb(153, 180, 89);
     border-radius: 9px;
     box-shadow: 0 1px 4px rgba(18, 22, 33, .12);
     h3 {
@@ -57,11 +57,11 @@ body {
 
 .slider {
     --primary: #275efe;
-    --handle: #fff;
+    --handle: rgb(206, 10, 10);
     --handle-active: #{mix(white, #275efe, 70%)};
     --handle-hover: #{mix(white, #275efe, 90%)};
     --handle-border: 2px solid var(--primary);
-    --line: #cdd9ed;
+    --line: #7a0808;
     --line-active: var(--primary);
     height: 23px;
     width: 100%;
